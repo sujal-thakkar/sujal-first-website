@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Slab:wght@100;400&display=swap");
+:root {
+  --main-bg-color: rgb(238, 0, 255);
+}
+body {
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  height: 60px;
+  background-color: var(--main-bg-color);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo {
+  height: 152px;
+  margin-left: -41px;
+  margin-right: -35px;
+  margin-top: 14px;
+}
+header nav ul {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  font-family: "Alkatra", cursive;
+  font-family: "Roboto Slab", serif;
+}
+nav ul li a:hover {
+  font-weight: bolder;
+}
+.search {
+  margin: auto 55px;
+  width: 344px;
+}
+#search {
+  width: 342px;
+  border-radius: 3px;
+  padding: 3px 14px;
+  background-color: rgb(234, 189, 237);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+button {
+  margin: 3px -24px;
+  padding: 3px 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bolder;
+  background-color: rgb(234, 189, 237);
+  color: rgb(0, 0, 0);
+}
+button:hover{
+  background-color:  rgb(156, 15, 167);
+  color: rgb(255, 255, 255);
+}
+.btn {
+  margin: 14px 12px;
+}
+
+main {
+  background-color: beige;
+  min-height: calc(100vh - 60px - 60px);
+}
+.banner{
+  height: 50vh;
+  width: 88vw;
+  margin: 15px 92px;
+}
+
+.items{
+  margin: 10px  20px 0px 20px;
+}
+
+
+.footer {
+  display: flex;
+  background-color: var(--main-bg-color);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Alkatra", cursive;
+  font-family: "Roboto Slab", serif;
+  height: 60px;
+}
